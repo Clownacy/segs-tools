@@ -1,4 +1,4 @@
-CFLAGS = -O3 -s -std=c11 -fno-ident -Wall -Wextra -Wno-unused-variable
+CFLAGS = -O3 -s -std=c99 -fno-ident -Wall -Wextra -pedantic
 LDFLAGS = -lz
 
 all: decompress compress
