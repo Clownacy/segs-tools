@@ -4,6 +4,7 @@
 
 #include <zlib.h>
 
+// This function is copied from QuickBMS
 int unzip_deflate(unsigned char *in, int insz, unsigned char *out, int outsz, int no_error) {
     static z_stream *z  = NULL;
     int     ret,

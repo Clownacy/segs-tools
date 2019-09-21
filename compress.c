@@ -5,6 +5,7 @@
 
 #include <zlib.h>
 
+// This function is copied from QuickBMS
 int deflate_compress(unsigned char *in, int insz, unsigned char *out, int outsz)
 {
 	const bool no_error = false;
